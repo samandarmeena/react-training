@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing my container component renders correctly 1`] = `
+Array [
+  <div
+    className="footerContainer"
+  >
+    <div
+      className="footerSection"
+    >
+      <h4
+        className="headingItem"
+      >
+        Customer Service
+      </h4>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Help Center
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Contact Us
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Return an Item
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Recall Information
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Safety Data Sheets
+        </a>
+      </div>
+    </div>
+    <div
+      className="footerSection"
+    >
+      <h4
+        className="headingItem"
+      >
+        Corporate Info
+      </h4>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Stapies Business Advantage Overview
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Industries Served
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Blog
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Our Brand
+        </a>
+      </div>
+    </div>
+    <div
+      className="footerSection"
+    >
+      <h4
+        className="headingItem"
+      >
+        Staples Corporate Solution
+      </h4>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Office Products
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Technology Products
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Furniture
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Facilites
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Promotional Products
+        </a>
+      </div>
+    </div>
+    <div
+      className="footerSection"
+    >
+      <h4
+        className="headingItem"
+      >
+        New Customer
+      </h4>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Become a Customer
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Govt. Customers
+        </a>
+      </div>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Memberships
+        </a>
+      </div>
+    </div>
+    <div
+      className="footerSection"
+    >
+      <h4
+        className="headingItem"
+      >
+        Join the Staples Team
+      </h4>
+      <div
+        className="footerLink"
+      >
+        <a
+          href="/"
+        >
+          Careers
+        </a>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footerBottom"
+  >
+    <div
+      className="footerSocial footerSection"
+    >
+      <span>
+        Join us on
+      </span>
+      <div
+        className="footerSocialIcon"
+      >
+        <img
+          alt="Linkdin"
+          className="iconImage"
+          src="assets/Icons/linkedin.png"
+        />
+        <img
+          alt="Twitter"
+          className="iconImage"
+          src="assets/Icons/twitter.png"
+        />
+        <img
+          alt="Facebook"
+          className="iconImage"
+          src="assets/Icons/facebook.png"
+        />
+        <img
+          alt="Youtube"
+          className="iconImage"
+          src="assets/Icons/youtube.png"
+        />
+        <img
+          alt="Instagram"
+          className="iconImage"
+          src="assets/Icons/insta.png"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footerCopyright"
+  >
+    <span>
+      Copyright 2001-2019 Coporate Express Canada. Inc.. a Staples company. All rights reserverd.
+    </span>
+    <div>
+      <span>
+        Terms & Conditions    |   Privacy Policy    |   Staples Bussiness Advantage
+      </span>
+    </div>
+  </div>,
+]
+`;

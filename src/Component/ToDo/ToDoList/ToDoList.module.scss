@@ -1,0 +1,21 @@
+.todoList {       
+    width: 50%;
+    table {
+        margin-top: 10px;
+        width: 100%;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+    }    
+    th, td {
+        border: 1px solid #ddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4c8aaf;
+        color: white;
+    }      
+}

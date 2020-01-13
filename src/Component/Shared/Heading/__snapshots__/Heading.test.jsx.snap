@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`my component testing renders correctly 1`] = `
+<h4
+  className="headingItem"
+>
+  
+</h4>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`icon component testing renders correctly 1`] = `
+<img
+  alt="facebook"
+  className="iconImage"
+  src="assets/Icons/facebook.png"
+/>
+`;
