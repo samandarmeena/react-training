@@ -8,7 +8,7 @@ describe(`Testing my container component`,()=>{
     const wrapper = mount(<Footer />);
     it(`component should be run`,() => {
         expect(wrapper).toBeTruthy();
-    });
+    }); 
     it(`Heading text should be equal`,() => {  
         expect(wrapper.find(Heading).at(0).text("h4")).toEqual('Customer Service');
         expect(wrapper.find(Heading).at(1).text("h4")).toEqual('Corporate Info');

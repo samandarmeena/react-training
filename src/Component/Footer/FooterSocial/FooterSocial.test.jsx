@@ -10,7 +10,7 @@ describe(`my component testing`,()=> {
     });
     it(`passes child component lenght should be equal to 5`,()=> { 
         expect(wrapper.find(Icon)).toHaveLength(5); 
-    }); 
+    });  
     it(`getting file name should be equal`, () => {   
             
         expect(wrapper.find(".footerSocialIcon").childAt(0).find('img').prop('alt')).toEqual('Linkdin');
