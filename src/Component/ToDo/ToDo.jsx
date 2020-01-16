@@ -24,6 +24,7 @@ class ToDo extends React.Component {
         });
     };
     addTodo = (e ,index)=> {
+        alert();
         e.preventDefault();                    
         let todoDataArray = [...this.state.todoDataArray]; 
         if(index!==-1){
@@ -71,25 +72,31 @@ class ToDo extends React.Component {
             todo: this.state.todoDataArray[index].todo
         })
     } 
+    
     render () {   
+        const props = {
+            inputLabel: "Todo",
+            inputType: "text",
+            inputName: "todo",
+            isRequired: true,
+            inputValue: this.state.todo,
+            handleChange: this.handleChange,
+            inputMaxLength: "30"
+        }
+        const buttonProps = {
+            buttonType: "submit",
+            buttonName: "Add Todo",
+            buttonClass: "buttonClass"             
+        }
         return (            
             <div className={styles.todoContainer}>                                              
                 <div className={styles.todoForm}>
                     <form onSubmit={e =>this.addTodo(e, this.state.index)} className={styles.formInline}>
                         <Input
-                        inputLabel="Todo"
-                        inputType="text"
-                        inputName="todo"
-                        isRequired={true}
-                        inputValue={this.state.todo}
-                        handleChange={this.handleChange}
-                        inputMaxLength="30"
+                        {...props}
                         /> 
                         <Button
-                        buttonType="submit"
-                        buttonName="Add Todo"
-                        buttonClass="buttonClass"
-                                                         
+                            {...buttonProps}                                                         
                         />    
                     </form>
                 </div>

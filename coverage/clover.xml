@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579172569673" clover="3.2.0">
-  <project timestamp="1579172569673" name="All files">
-    <metrics statements="188" coveredstatements="124" conditionals="83" coveredconditionals="43" methods="75" coveredmethods="35" elements="346" coveredelements="202" complexity="0" loc="188" ncloc="188" packages="18" files="37" classes="37"/>
+<coverage generated="1579178878397" clover="3.2.0">
+  <project timestamp="1579178878397" name="All files">
+    <metrics statements="191" coveredstatements="126" conditionals="83" coveredconditionals="43" methods="75" coveredmethods="35" elements="349" coveredelements="204" complexity="0" loc="191" ncloc="191" packages="18" files="37" classes="37"/>
     <package name="src">
       <metrics statements="44" coveredstatements="4" conditionals="32" coveredconditionals="0" methods="16" coveredmethods="1"/>
       <file name="App.js" path="/home/gwl/SAMANDAR/react-training/src/App.js">
@@ -202,9 +202,9 @@
       </file>
     </package>
     <package name="src.Component.ToDo">
-      <metrics statements="21" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="2"/>
+      <metrics statements="24" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="2"/>
       <file name="ToDo.jsx" path="/home/gwl/SAMANDAR/react-training/src/Component/ToDo/ToDo.jsx">
-        <metrics statements="21" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="2"/>
+        <metrics statements="24" coveredstatements="8" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="2"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
@@ -212,20 +212,23 @@
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
         <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="31" count="0" type="stmt"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="55" count="0" type="stmt"/>
-        <line num="58" count="0" type="stmt"/>
-        <line num="68" count="1" type="stmt"/>
-        <line num="69" count="0" type="stmt"/>
-        <line num="75" count="1" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
-        <line num="99" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
       </file>
       <file name="index.jsx" path="/home/gwl/SAMANDAR/react-training/src/Component/ToDo/index.jsx">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
