@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDoActions component Snapshot testing 1`] = `
+<ToDoActions
+  handleRemoveToDo={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          123,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  handleToggleFixed={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          123,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  itemId={123}
+  itemStatus="new1"
+>
+  <Button
+    addOnClass="changeStatus"
+    buttonId="complete123"
+    buttonName="complete123"
+    buttonSize="buttonSmall"
+    buttonStyle="buttonInfo"
+    buttonTitle={
+      <Image
+        alt="Return"
+        src="/assets/images/return.png"
+      />
+    }
+    buttonToolTip="Mark as New"
+    buttonType="button"
+    clickEvent={[Function]}
+    key="complete123"
+  >
+    <button
+      className="button buttonInfo buttonSmall changeStatus"
+      id="complete123"
+      name="complete123"
+      onClick={[Function]}
+      title="Mark as New"
+      type="button"
+    >
+      <Image
+        alt="Return"
+        src="/assets/images/return.png"
+      >
+        <img
+          alt="Return"
+          src="/assets/images/return.png"
+        />
+      </Image>
+    </button>
+  </Button>
+  <Button
+    addOnClass="removeToDo"
+    buttonId="remove123"
+    buttonName="remove123"
+    buttonSize="buttonSmall"
+    buttonStyle="buttonDanger"
+    buttonTitle={
+      <Image
+        alt="Remove"
+        src="/assets/images/trash.png"
+      />
+    }
+    buttonToolTip="Remove ToDo"
+    buttonType="button"
+    clickEvent={[Function]}
+    key="remove123"
+  >
+    <button
+      className="button buttonDanger buttonSmall removeToDo"
+      id="remove123"
+      name="remove123"
+      onClick={[Function]}
+      title="Remove ToDo"
+      type="button"
+    >
+      <Image
+        alt="Remove"
+        src="/assets/images/trash.png"
+      >
+        <img
+          alt="Remove"
+          src="/assets/images/trash.png"
+        />
+      </Image>
+    </button>
+  </Button>
+</ToDoActions>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component Snapshot testing 1`] = `
+<Text
+  isStrong={true}
+  text="Terms and Conditions"
+>
+  <span
+    className="textStrong"
+  >
+    Terms and Conditions
+  </span>
+</Text>
+`;

@@ -31,7 +31,20 @@ describe(`Testing ToDo component it should be rendered correctly`,() => {
             .maxLength
         ).toEqual(`30`);      
     });
-    it(`testing button field props should be there`, () => {      
-        console.log(wrapper.debug());        
+    it(`testing button field props should be there`, () => { 
+        expect(
+            wrapper
+            .find(`form`)
+            .find(`button`)
+            .props()
+            .type
+        ).toEqual(`submit`);  
+        expect(
+            wrapper
+            .find(`form`)
+            .find(`button`)
+            .props()
+            .name
+        ).toEqual(`Add Todo`);     
     });
 })

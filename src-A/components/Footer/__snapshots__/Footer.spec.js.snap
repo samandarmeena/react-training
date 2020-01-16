@@ -1,0 +1,690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Snapshot testing 1`] = `
+<Footer>
+  <div
+    className="footer"
+  >
+    <div
+      className="footerLinks"
+    >
+      <FooterLinks
+        footerLinkStack={
+          Array [
+            Array [
+              Object {
+                "headerTitle": "Customer Service",
+              },
+              Object {
+                "linkTitle": "Help Center",
+              },
+              Object {
+                "linkTitle": "Contact Us",
+              },
+              Object {
+                "linkTitle": "Return an Item",
+              },
+              Object {
+                "linkTitle": "Recall Information",
+              },
+              Object {
+                "linkTitle": "Safety Data Sheets",
+              },
+            ],
+            Array [
+              Object {
+                "headerTitle": "Corporate Info",
+              },
+              Object {
+                "linkTitle": "Staples Business Advantage Overview",
+              },
+              Object {
+                "linkTitle": "Industries Served",
+              },
+              Object {
+                "linkTitle": "Blog",
+              },
+              Object {
+                "linkTitle": "Our Brands",
+              },
+            ],
+            Array [
+              Object {
+                "headerTitle": "Staples Corporate Solutions",
+              },
+              Object {
+                "linkTitle": "Office Products",
+              },
+              Object {
+                "linkTitle": "Technology Products",
+              },
+              Object {
+                "linkTitle": "Furniture",
+              },
+              Object {
+                "linkTitle": "Facilities",
+              },
+              Object {
+                "linkTitle": "Promotional Products",
+              },
+            ],
+            Array [
+              Object {
+                "headerTitle": "New Customer",
+              },
+              Object {
+                "linkTitle": "Become a Customer",
+              },
+              Object {
+                "linkTitle": "Govt. Customers",
+              },
+              Object {
+                "headerTitle": "Memberships",
+              },
+              Object {
+                "linkTitle": "Join the Staples Team",
+              },
+              Object {
+                "linkTitle": "Careers",
+              },
+            ],
+          ]
+        }
+      >
+        <div
+          className="footerLinksColumn"
+          key="0"
+        >
+          <div
+            className="FooterLink"
+            key="0"
+          >
+            <Text
+              isStrong={true}
+              text="Customer Service"
+            >
+              <span
+                className="textStrong"
+              >
+                Customer Service
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="1"
+          >
+            <Text
+              isStrong={false}
+              text="Help Center"
+            >
+              <span
+                className=""
+              >
+                Help Center
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="2"
+          >
+            <Text
+              isStrong={false}
+              text="Contact Us"
+            >
+              <span
+                className=""
+              >
+                Contact Us
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="3"
+          >
+            <Text
+              isStrong={false}
+              text="Return an Item"
+            >
+              <span
+                className=""
+              >
+                Return an Item
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="4"
+          >
+            <Text
+              isStrong={false}
+              text="Recall Information"
+            >
+              <span
+                className=""
+              >
+                Recall Information
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="5"
+          >
+            <Text
+              isStrong={false}
+              text="Safety Data Sheets"
+            >
+              <span
+                className=""
+              >
+                Safety Data Sheets
+              </span>
+            </Text>
+          </div>
+        </div>
+        <div
+          className="footerLinksColumn"
+          key="1"
+        >
+          <div
+            className="FooterLink"
+            key="0"
+          >
+            <Text
+              isStrong={true}
+              text="Corporate Info"
+            >
+              <span
+                className="textStrong"
+              >
+                Corporate Info
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="1"
+          >
+            <Text
+              isStrong={false}
+              text="Staples Business Advantage Overview"
+            >
+              <span
+                className=""
+              >
+                Staples Business Advantage Overview
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="2"
+          >
+            <Text
+              isStrong={false}
+              text="Industries Served"
+            >
+              <span
+                className=""
+              >
+                Industries Served
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="3"
+          >
+            <Text
+              isStrong={false}
+              text="Blog"
+            >
+              <span
+                className=""
+              >
+                Blog
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="4"
+          >
+            <Text
+              isStrong={false}
+              text="Our Brands"
+            >
+              <span
+                className=""
+              >
+                Our Brands
+              </span>
+            </Text>
+          </div>
+        </div>
+        <div
+          className="footerLinksColumn"
+          key="2"
+        >
+          <div
+            className="FooterLink"
+            key="0"
+          >
+            <Text
+              isStrong={true}
+              text="Staples Corporate Solutions"
+            >
+              <span
+                className="textStrong"
+              >
+                Staples Corporate Solutions
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="1"
+          >
+            <Text
+              isStrong={false}
+              text="Office Products"
+            >
+              <span
+                className=""
+              >
+                Office Products
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="2"
+          >
+            <Text
+              isStrong={false}
+              text="Technology Products"
+            >
+              <span
+                className=""
+              >
+                Technology Products
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="3"
+          >
+            <Text
+              isStrong={false}
+              text="Furniture"
+            >
+              <span
+                className=""
+              >
+                Furniture
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="4"
+          >
+            <Text
+              isStrong={false}
+              text="Facilities"
+            >
+              <span
+                className=""
+              >
+                Facilities
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="5"
+          >
+            <Text
+              isStrong={false}
+              text="Promotional Products"
+            >
+              <span
+                className=""
+              >
+                Promotional Products
+              </span>
+            </Text>
+          </div>
+        </div>
+        <div
+          className="footerLinksColumn"
+          key="3"
+        >
+          <div
+            className="FooterLink"
+            key="0"
+          >
+            <Text
+              isStrong={true}
+              text="New Customer"
+            >
+              <span
+                className="textStrong"
+              >
+                New Customer
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="1"
+          >
+            <Text
+              isStrong={false}
+              text="Become a Customer"
+            >
+              <span
+                className=""
+              >
+                Become a Customer
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="2"
+          >
+            <Text
+              isStrong={false}
+              text="Govt. Customers"
+            >
+              <span
+                className=""
+              >
+                Govt. Customers
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="3"
+          >
+            <Text
+              isStrong={true}
+              text="Memberships"
+            >
+              <span
+                className="textStrong"
+              >
+                Memberships
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="4"
+          >
+            <Text
+              isStrong={false}
+              text="Join the Staples Team"
+            >
+              <span
+                className=""
+              >
+                Join the Staples Team
+              </span>
+            </Text>
+          </div>
+          <div
+            className="FooterLink"
+            key="5"
+          >
+            <Text
+              isStrong={false}
+              text="Careers"
+            >
+              <span
+                className=""
+              >
+                Careers
+              </span>
+            </Text>
+          </div>
+        </div>
+      </FooterLinks>
+    </div>
+    <div
+      className="footerConnect"
+    >
+      <FooterConnect
+        accessibilityImg={
+          Object {
+            "alt": "Essential Accessibility",
+            "src": "assets/images/essential-accessibility.png",
+          }
+        }
+        socialImgs={
+          Array [
+            Object {
+              "alt": "LinkedIn",
+              "src": "assets/images/linkedin.png",
+            },
+            Object {
+              "alt": "Twitter",
+              "src": "assets/images/twitter.png",
+            },
+            Object {
+              "alt": "Facebook",
+              "src": "assets/images/facebook.png",
+            },
+            Object {
+              "alt": "Youtube",
+              "src": "assets/images/youtube.png",
+            },
+            Object {
+              "alt": "Instagram",
+              "src": "assets/images/insta.png",
+            },
+          ]
+        }
+      >
+        <div
+          className="footerConnectTitle"
+        >
+          <Text
+            isStrong={false}
+            text="Join us on"
+          >
+            <span
+              className=""
+            >
+              Join us on
+            </span>
+          </Text>
+        </div>
+        <div
+          className="footerConnectLinks"
+        >
+          <div
+            className="footerConnectLeft"
+          >
+            <span
+              key="0"
+            >
+              <Image
+                alt="LinkedIn"
+                src="assets/images/linkedin.png"
+              >
+                <img
+                  alt="LinkedIn"
+                  src="assets/images/linkedin.png"
+                />
+              </Image>
+            </span>
+            <span
+              key="1"
+            >
+              <Image
+                alt="Twitter"
+                src="assets/images/twitter.png"
+              >
+                <img
+                  alt="Twitter"
+                  src="assets/images/twitter.png"
+                />
+              </Image>
+            </span>
+            <span
+              key="2"
+            >
+              <Image
+                alt="Facebook"
+                src="assets/images/facebook.png"
+              >
+                <img
+                  alt="Facebook"
+                  src="assets/images/facebook.png"
+                />
+              </Image>
+            </span>
+            <span
+              key="3"
+            >
+              <Image
+                alt="Youtube"
+                src="assets/images/youtube.png"
+              >
+                <img
+                  alt="Youtube"
+                  src="assets/images/youtube.png"
+                />
+              </Image>
+            </span>
+            <span
+              key="4"
+            >
+              <Image
+                alt="Instagram"
+                src="assets/images/insta.png"
+              >
+                <img
+                  alt="Instagram"
+                  src="assets/images/insta.png"
+                />
+              </Image>
+            </span>
+          </div>
+          <div
+            className="footerConnectRight"
+          >
+            <Image
+              alt="Essential Accessibility"
+              src="assets/images/essential-accessibility.png"
+            >
+              <img
+                alt="Essential Accessibility"
+                src="assets/images/essential-accessibility.png"
+              />
+            </Image>
+          </div>
+        </div>
+      </FooterConnect>
+    </div>
+    <div
+      className="footerTnc"
+    >
+      <FooterCopyright
+        copyRightLinks={
+          Array [
+            "Terms & Conditions",
+            " | ",
+            "Privacy Policy",
+            " | ",
+            "Staples Bussiness Advantage",
+          ]
+        }
+        copyrightText="Copyright &copy; 2001-2019 Corporate Express Canada, Inc., a Staples company. All rights reserved."
+      >
+        <div
+          className="copyright"
+        >
+          <Text
+            isStrong={false}
+            text="Copyright &copy; 2001-2019 Corporate Express Canada, Inc., a Staples company. All rights reserved."
+          >
+            <span
+              className=""
+            >
+              Copyright &copy; 2001-2019 Corporate Express Canada, Inc., a Staples company. All rights reserved.
+            </span>
+          </Text>
+        </div>
+        <div
+          className="TandC"
+        >
+          <Text
+            isStrong={false}
+            key="0"
+            text="Terms & Conditions"
+          >
+            <span
+              className=""
+            >
+              Terms & Conditions
+            </span>
+          </Text>
+          <Text
+            isStrong={false}
+            key="1"
+            text=" | "
+          >
+            <span
+              className=""
+            >
+               | 
+            </span>
+          </Text>
+          <Text
+            isStrong={false}
+            key="2"
+            text="Privacy Policy"
+          >
+            <span
+              className=""
+            >
+              Privacy Policy
+            </span>
+          </Text>
+          <Text
+            isStrong={false}
+            key="3"
+            text=" | "
+          >
+            <span
+              className=""
+            >
+               | 
+            </span>
+          </Text>
+          <Text
+            isStrong={false}
+            key="4"
+            text="Staples Bussiness Advantage"
+          >
+            <span
+              className=""
+            >
+              Staples Bussiness Advantage
+            </span>
+          </Text>
+        </div>
+      </FooterCopyright>
+    </div>
+  </div>
+</Footer>
+`;

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking a child Snapshot testing 1`] = `
+<FooterCopyright
+  copyRightLinks={
+    Array [
+      "Terms & Conditions",
+      " | ",
+      "Privacy Policy",
+      " | ",
+      "Staples Bussiness Advantage",
+    ]
+  }
+  copyrightText="Copyright &copy; 2001-2019 Corporate Express Canada, Inc., a Staples company. All rights reserved."
+>
+  <div
+    className="copyright"
+  >
+    <Text
+      isStrong={false}
+      text="Copyright &copy; 2001-2019 Corporate Express Canada, Inc., a Staples company. All rights reserved."
+    >
+      <span
+        className=""
+      >
+        Copyright &copy; 2001-2019 Corporate Express Canada, Inc., a Staples company. All rights reserved.
+      </span>
+    </Text>
+  </div>
+  <div
+    className="TandC"
+  >
+    <Text
+      isStrong={false}
+      key="0"
+      text="Terms & Conditions"
+    >
+      <span
+        className=""
+      >
+        Terms & Conditions
+      </span>
+    </Text>
+    <Text
+      isStrong={false}
+      key="1"
+      text=" | "
+    >
+      <span
+        className=""
+      >
+         | 
+      </span>
+    </Text>
+    <Text
+      isStrong={false}
+      key="2"
+      text="Privacy Policy"
+    >
+      <span
+        className=""
+      >
+        Privacy Policy
+      </span>
+    </Text>
+    <Text
+      isStrong={false}
+      key="3"
+      text=" | "
+    >
+      <span
+        className=""
+      >
+         | 
+      </span>
+    </Text>
+    <Text
+      isStrong={false}
+      key="4"
+      text="Staples Bussiness Advantage"
+    >
+      <span
+        className=""
+      >
+        Staples Bussiness Advantage
+      </span>
+    </Text>
+  </div>
+</FooterCopyright>
+`;

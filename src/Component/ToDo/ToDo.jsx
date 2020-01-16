@@ -23,8 +23,7 @@ class ToDo extends React.Component {
             [e.target.name]: e.target.value
         });
     };
-    addTodo = (e ,index)=> {
-        alert();
+    addTodo = (e ,index)=> {        
         e.preventDefault();                    
         let todoDataArray = [...this.state.todoDataArray]; 
         if(index!==-1){

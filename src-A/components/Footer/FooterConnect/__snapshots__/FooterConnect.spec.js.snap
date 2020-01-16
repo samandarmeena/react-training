@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterLink component Snapshot testing 1`] = `
+<FooterConnect
+  accessibilityImg={
+    Object {
+      "alt": "Essential Accessibility",
+      "src": "assets/images/essential-accessibility.png",
+    }
+  }
+  socialImgs={
+    Array [
+      Object {
+        "alt": "LinkedIn",
+        "src": "assets/images/linkedin.png",
+      },
+      Object {
+        "alt": "Twitter",
+        "src": "assets/images/twitter.png",
+      },
+      Object {
+        "alt": "Facebook",
+        "src": "assets/images/facebook.png",
+      },
+      Object {
+        "alt": "Youtube",
+        "src": "assets/images/youtube.png",
+      },
+      Object {
+        "alt": "Instagram",
+        "src": "assets/images/insta.png",
+      },
+    ]
+  }
+>
+  <div
+    className="footerConnectTitle"
+  >
+    <Text
+      isStrong={false}
+      text="Join us on"
+    >
+      <span
+        className=""
+      >
+        Join us on
+      </span>
+    </Text>
+  </div>
+  <div
+    className="footerConnectLinks"
+  >
+    <div
+      className="footerConnectLeft"
+    >
+      <span
+        key="0"
+      >
+        <Image
+          alt="LinkedIn"
+          src="assets/images/linkedin.png"
+        >
+          <img
+            alt="LinkedIn"
+            src="assets/images/linkedin.png"
+          />
+        </Image>
+      </span>
+      <span
+        key="1"
+      >
+        <Image
+          alt="Twitter"
+          src="assets/images/twitter.png"
+        >
+          <img
+            alt="Twitter"
+            src="assets/images/twitter.png"
+          />
+        </Image>
+      </span>
+      <span
+        key="2"
+      >
+        <Image
+          alt="Facebook"
+          src="assets/images/facebook.png"
+        >
+          <img
+            alt="Facebook"
+            src="assets/images/facebook.png"
+          />
+        </Image>
+      </span>
+      <span
+        key="3"
+      >
+        <Image
+          alt="Youtube"
+          src="assets/images/youtube.png"
+        >
+          <img
+            alt="Youtube"
+            src="assets/images/youtube.png"
+          />
+        </Image>
+      </span>
+      <span
+        key="4"
+      >
+        <Image
+          alt="Instagram"
+          src="assets/images/insta.png"
+        >
+          <img
+            alt="Instagram"
+            src="assets/images/insta.png"
+          />
+        </Image>
+      </span>
+    </div>
+    <div
+      className="footerConnectRight"
+    >
+      <Image
+        alt="Essential Accessibility"
+        src="assets/images/essential-accessibility.png"
+      >
+        <img
+          alt="Essential Accessibility"
+          src="assets/images/essential-accessibility.png"
+        />
+      </Image>
+    </div>
+  </div>
+</FooterConnect>
+`;

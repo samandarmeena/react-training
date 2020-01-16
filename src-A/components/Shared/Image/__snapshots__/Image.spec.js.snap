@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component Snapshot testing 1`] = `
+<Image
+  alt="Essential Accessibility"
+  src="assets/images/essential-accessibility.png"
+>
+  <img
+    alt="Essential Accessibility"
+    src="assets/images/essential-accessibility.png"
+  />
+</Image>
+`;

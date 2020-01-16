@@ -1,0 +1,16 @@
+.toDoContainer {
+  width: 50%;
+  margin: auto;
+  .addToDo {
+    width: 100%;
+  }
+  .toDoListContainer {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    .filterButton {
+      width: 100%;
+    }
+  }
+}

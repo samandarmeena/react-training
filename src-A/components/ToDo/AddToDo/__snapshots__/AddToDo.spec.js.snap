@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddToDo component Snapshot testing 1`] = `
+<AddToDo
+  handleChange={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  onSave={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  todoTitle="Test todo title 1"
+>
+  <div
+    className="welcomeBox"
+  >
+    <div
+      className="title"
+    >
+      Welcome!
+    </div>
+    <div
+      className="message"
+    >
+      To get started, add some items to your list.
+    </div>
+    <div
+      className="addToDo"
+    >
+      <Input
+        changeEvent={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+        inputId="todoTitle"
+        inputName="todoTitle"
+        inputPlaceholder="Enter here"
+        inputType="text"
+        inputValue="Test todo title 1"
+      >
+        <input
+          className="inputBox"
+          id="todoTitle"
+          name="todoTitle"
+          onChange={
+            [MockFunction] {
+              "calls": Array [
+                Array [],
+              ],
+              "results": Array [
+                Object {
+                  "type": "return",
+                  "value": undefined,
+                },
+              ],
+            }
+          }
+          placeholder="Enter here"
+          type="text"
+          value="Test todo title 1"
+        />
+      </Input>
+      <Button
+        addOnClass="saveToDoBtn"
+        buttonId="saveToDo"
+        buttonName="saveToDo"
+        buttonSize="buttonMedium"
+        buttonStyle="buttonPrimary"
+        buttonTitle="Add New"
+        buttonToolTip="Add ToDo"
+        buttonType="button"
+        clickEvent={
+          [MockFunction] {
+            "calls": Array [
+              Array [],
+            ],
+            "results": Array [
+              Object {
+                "type": "return",
+                "value": undefined,
+              },
+            ],
+          }
+        }
+      >
+        <button
+          className="button buttonPrimary buttonMedium saveToDoBtn"
+          id="saveToDo"
+          name="saveToDo"
+          onClick={[Function]}
+          title="Add ToDo"
+          type="button"
+        >
+          Add New
+        </button>
+      </Button>
+    </div>
+  </div>
+</AddToDo>
+`;

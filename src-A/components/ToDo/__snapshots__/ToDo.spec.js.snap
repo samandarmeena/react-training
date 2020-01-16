@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToDo component Snapshot testing 1`] = `
+<ToDo>
+  <div
+    className="toDoContainer"
+  >
+    <div
+      className="addToDo"
+    >
+      <AddToDo
+        handleChange={[Function]}
+        onSave={[Function]}
+        todoTitle=""
+      >
+        <div
+          className="welcomeBox"
+        >
+          <div
+            className="title"
+          >
+            Welcome!
+          </div>
+          <div
+            className="message"
+          >
+            To get started, add some items to your list.
+          </div>
+          <div
+            className="addToDo"
+          >
+            <Input
+              changeEvent={[Function]}
+              inputId="todoTitle"
+              inputName="todoTitle"
+              inputPlaceholder="Enter here"
+              inputType="text"
+              inputValue=""
+            >
+              <input
+                className="inputBox"
+                id="todoTitle"
+                name="todoTitle"
+                onChange={[Function]}
+                placeholder="Enter here"
+                type="text"
+                value=""
+              />
+            </Input>
+            <Button
+              addOnClass="saveToDoBtn"
+              buttonId="saveToDo"
+              buttonName="saveToDo"
+              buttonSize="buttonMedium"
+              buttonStyle="buttonPrimary"
+              buttonTitle="Add New"
+              buttonToolTip="Add ToDo"
+              buttonType="button"
+              clickEvent={[Function]}
+            >
+              <button
+                className="button buttonPrimary buttonMedium saveToDoBtn"
+                id="saveToDo"
+                name="saveToDo"
+                onClick={[Function]}
+                title="Add ToDo"
+                type="button"
+              >
+                Add New
+              </button>
+            </Button>
+          </div>
+        </div>
+      </AddToDo>
+    </div>
+    <div
+      className="toDoListContainer"
+    >
+      <div
+        className="filterButton"
+      >
+        <Button
+          addOnClass="buttonFilterBy"
+          buttonId="newToDO"
+          buttonName="newToDO"
+          buttonSize="buttonSmall"
+          buttonStyle="buttonPrimary"
+          buttonTitle="New"
+          buttonToolTip="Toggle status"
+          buttonType="button"
+          clickEvent={[Function]}
+        >
+          <button
+            className="button buttonPrimary buttonSmall buttonFilterBy"
+            id="newToDO"
+            name="newToDO"
+            onClick={[Function]}
+            title="Toggle status"
+            type="button"
+          >
+            New
+          </button>
+        </Button>
+      </div>
+      <ToDoList
+        filterBy="New"
+        removeToDo={[Function]}
+        todoItems={
+          Array [
+            Object {
+              "id": 1,
+              "status": "New",
+              "title": "Test todo title 1",
+            },
+            Object {
+              "id": 3,
+              "status": "New",
+              "title": "Test todo title 3",
+            },
+          ]
+        }
+        toggleFixed={[Function]}
+      >
+        <ul
+          className="toDoList"
+        >
+          <li
+            className="listItems"
+            key="1"
+          >
+            <span
+              className="toDoTitle"
+            >
+              Test todo title 1
+            </span>
+            <span
+              className="toDoActions"
+            >
+              <ToDoActions
+                handleRemoveToDo={[Function]}
+                handleToggleFixed={[Function]}
+                itemId={1}
+                itemStatus="New"
+              >
+                <Button
+                  addOnClass="changeStatus"
+                  buttonId="complete1"
+                  buttonName="complete1"
+                  buttonSize="buttonSmall"
+                  buttonStyle="buttonSuccess"
+                  buttonTitle={
+                    <Image
+                      alt="Check"
+                      src="/assets/images/check.png"
+                    />
+                  }
+                  buttonToolTip="Mark as Completed"
+                  buttonType="button"
+                  clickEvent={[Function]}
+                  key="complete1"
+                >
+                  <button
+                    className="button buttonSuccess buttonSmall changeStatus"
+                    id="complete1"
+                    name="complete1"
+                    onClick={[Function]}
+                    title="Mark as Completed"
+                    type="button"
+                  >
+                    <Image
+                      alt="Check"
+                      src="/assets/images/check.png"
+                    >
+                      <img
+                        alt="Check"
+                        src="/assets/images/check.png"
+                      />
+                    </Image>
+                  </button>
+                </Button>
+                <Button
+                  addOnClass="removeToDo"
+                  buttonId="remove1"
+                  buttonName="remove1"
+                  buttonSize="buttonSmall"
+                  buttonStyle="buttonDanger"
+                  buttonTitle={
+                    <Image
+                      alt="Remove"
+                      src="/assets/images/trash.png"
+                    />
+                  }
+                  buttonToolTip="Remove ToDo"
+                  buttonType="button"
+                  clickEvent={[Function]}
+                  key="remove1"
+                >
+                  <button
+                    className="button buttonDanger buttonSmall removeToDo"
+                    id="remove1"
+                    name="remove1"
+                    onClick={[Function]}
+                    title="Remove ToDo"
+                    type="button"
+                  >
+                    <Image
+                      alt="Remove"
+                      src="/assets/images/trash.png"
+                    >
+                      <img
+                        alt="Remove"
+                        src="/assets/images/trash.png"
+                      />
+                    </Image>
+                  </button>
+                </Button>
+              </ToDoActions>
+            </span>
+          </li>
+          <li
+            className="listItems"
+            key="3"
+          >
+            <span
+              className="toDoTitle"
+            >
+              Test todo title 3
+            </span>
+            <span
+              className="toDoActions"
+            >
+              <ToDoActions
+                handleRemoveToDo={[Function]}
+                handleToggleFixed={[Function]}
+                itemId={3}
+                itemStatus="New"
+              >
+                <Button
+                  addOnClass="changeStatus"
+                  buttonId="complete3"
+                  buttonName="complete3"
+                  buttonSize="buttonSmall"
+                  buttonStyle="buttonSuccess"
+                  buttonTitle={
+                    <Image
+                      alt="Check"
+                      src="/assets/images/check.png"
+                    />
+                  }
+                  buttonToolTip="Mark as Completed"
+                  buttonType="button"
+                  clickEvent={[Function]}
+                  key="complete3"
+                >
+                  <button
+                    className="button buttonSuccess buttonSmall changeStatus"
+                    id="complete3"
+                    name="complete3"
+                    onClick={[Function]}
+                    title="Mark as Completed"
+                    type="button"
+                  >
+                    <Image
+                      alt="Check"
+                      src="/assets/images/check.png"
+                    >
+                      <img
+                        alt="Check"
+                        src="/assets/images/check.png"
+                      />
+                    </Image>
+                  </button>
+                </Button>
+                <Button
+                  addOnClass="removeToDo"
+                  buttonId="remove3"
+                  buttonName="remove3"
+                  buttonSize="buttonSmall"
+                  buttonStyle="buttonDanger"
+                  buttonTitle={
+                    <Image
+                      alt="Remove"
+                      src="/assets/images/trash.png"
+                    />
+                  }
+                  buttonToolTip="Remove ToDo"
+                  buttonType="button"
+                  clickEvent={[Function]}
+                  key="remove3"
+                >
+                  <button
+                    className="button buttonDanger buttonSmall removeToDo"
+                    id="remove3"
+                    name="remove3"
+                    onClick={[Function]}
+                    title="Remove ToDo"
+                    type="button"
+                  >
+                    <Image
+                      alt="Remove"
+                      src="/assets/images/trash.png"
+                    >
+                      <img
+                        alt="Remove"
+                        src="/assets/images/trash.png"
+                      />
+                    </Image>
+                  </button>
+                </Button>
+              </ToDoActions>
+            </span>
+          </li>
+        </ul>
+      </ToDoList>
+    </div>
+  </div>
+</ToDo>
+`;

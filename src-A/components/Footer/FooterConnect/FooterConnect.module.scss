@@ -1,0 +1,19 @@
+.footerConnectLinks {
+  display: flex;
+  justify-content: space-between;
+  .footerConnectLeft {
+    display: flex;
+    img {
+      margin-right: 5px;
+    }
+  }
+  .footerConnectRight {
+    img {
+      width: 240px;
+    }
+  }
+}
+.footerConnectTitle {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}

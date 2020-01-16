@@ -1,0 +1,52 @@
+.button {
+  border: none;
+  cursor: pointer;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.buttonInfo {
+  background-color: #138496;
+  color: #fff;
+}
+.buttonInfo:hover {
+  color: #fff;
+  background-color: #007183;
+  border-color: #007183;
+}
+.buttonPrimary {
+  background-color: #0069d9;
+  color: #fff;
+}
+.buttonPrimary:hover {
+  background-color: #0052c2;
+}
+.buttonSuccess {
+  background-color: #40c2a6;
+  color: #fff;
+}
+.buttonWarning {
+  background-color: #e0a800;
+  color: #fff;
+}
+.buttonDanger {
+  background-color: #c82333;
+  color: #fff;
+}
+.buttonDanger:hover {
+  background-color: #ab0616;
+}
+.buttonLarge {
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 13px;
+}
+.buttonMedium {
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.buttonSmall {
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px;
+}
