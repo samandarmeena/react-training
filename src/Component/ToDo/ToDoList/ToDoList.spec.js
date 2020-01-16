@@ -162,20 +162,7 @@ describe(`ToDoList component testing`, () => {
             .find(`button`)            
             .hasClass(`isCompletedButton`)
         ).toEqual(true);        
-    });    
-    // it(`testing on click to do action delete button, length should be change`, () => {
-    //     wrapper
-    //     .find(ToDoAction)
-    //     .find(`button`)
-    //     .at(1)
-    //     .simulate(`click`);
-
-    //     expect(
-    //         wrapper
-    //         .find(ToDoElements)
-    //         .find(`tr`)                
-    //     ).toHaveLength(0);        
-    // });
+    });
     it(`SnapShot Testing`, () => {
         expect(wrapper).toMatchSnapshot();
     });

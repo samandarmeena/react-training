@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`my component should be run component should be run currectlly 1`] = `ReactWrapper {}`;

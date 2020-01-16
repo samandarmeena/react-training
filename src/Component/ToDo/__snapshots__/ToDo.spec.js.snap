@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing ToDo component it should be rendered correctly Testing ToDo component it should be renders correctly 1`] = `ReactWrapper {}`;
