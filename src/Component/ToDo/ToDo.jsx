@@ -6,6 +6,12 @@ import ToDoList from "./ToDoList/ToDoList";
 /**
  * This component for render todo form todo list
  */
+/** Name: Component name
+ *  Desc: Component description
+ * @param {fun} handleOnClick
+ * @param {boolean} activeFilter
+ * @returns Element
+ */
 class ToDo extends React.Component {
     constructor(props){
         super(props);
@@ -23,7 +29,7 @@ class ToDo extends React.Component {
             [e.target.name]: e.target.value
         });
     };
-    addTodo = (e ,index)=> {        
+    addTodo = (e ,index)=> {                 
         e.preventDefault();                    
         let todoDataArray = [...this.state.todoDataArray]; 
         if(index!==-1){
